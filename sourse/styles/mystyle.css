@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body {
+    font-family: Comfortaa, serif;
+    font-weight: 600;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.723);
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin: 5px;
+}
+
+.navbar-toggler {
+    border-style: none;
+}
+
+body {
+    background-color: rgb(13, 15, 18);
+}
+
+.card {
+    border-color: rgb(30, 36, 42);
+    border-style: none;
+    background-color: rgb(30, 36, 42);
+}
+
+.card-title {
+    color: rgb(255, 255, 255)
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.723);
+}
+
+.sidebar {
+    color: aliceblue;
+    background-color: rgb(30, 36, 42);
+}
+
+.col-lg-3 p {
+    color: rgba(255, 255, 255, 0.723);
+}
+
+.slide-text {
+    color: rgba(255, 255, 255, 0.723);
+    margin: auto auto;
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .slide-text p {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+}
+
+footer {
+    background-color: rgb(33, 37, 41);
+}
+
+.footer-text-a {
+    color: rgba(255, 255, 255, 0.723);
+    margin-top: 42px;
+}
+
+.footer-text-b {
+    color: rgba(255, 255, 255, 0.723);
+    margin-top: 18px;
+}
+
+.footer-text-c {
+    color: rgba(255, 255, 255, 0.723);
+    margin-top: 33px;
+}
+
+.anime {
+    animation: anime 3s ease 0s infinite normal forwards;
+}
+
+@keyframes anime {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+
+
+.carousel-indicators {
+    margin-left: 520px;
+}
